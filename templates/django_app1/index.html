@@ -1,0 +1,8 @@
+{% extends 'django_app1/base.html' %}
+
+{% block info %}
+<h1>Hello, world</h1>
+    {% for el in characters %}
+        <h3> {{el.name}} </h3>
+    {% endfor %}
+{% endblock %}
