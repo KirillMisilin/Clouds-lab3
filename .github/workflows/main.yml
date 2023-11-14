@@ -27,4 +27,4 @@ jobs:
         with:
           context: "./"
           push: true
-          tags: auto_docker:latest
+          tags: kirillmisilin/auto-docker:latest
