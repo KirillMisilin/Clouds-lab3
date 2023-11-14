@@ -3,7 +3,8 @@
 Настроить автоматическую сборку образа и сохранение его на DockerHub после пуша в репозиторий.  
 ## Ход работы  
 Для начала необходимо сохранить логин и пароль для входа в DockerHub:  
-![Снимок экрана (2375)](https://github.com/KirillMisilin/Clouds-lab3/assets/88585791/b64499f5-c23e-4ee6-9fcc-17eaba5d3bca)
+
+![Снимок экрана (2375)](https://github.com/KirillMisilin/Clouds-lab3/assets/88585791/01c8a00c-e64f-4fc9-b0aa-648727fd1d6f)
 
 Далее был написан файл main.yml:  
 ```
@@ -90,9 +91,11 @@ jobs:
 
 ## Результаты  
 Образ успешно запушился на DockerHub:  
-![Снимок экрана (2371)](https://github.com/KirillMisilin/Clouds-lab3/assets/88585791/89f2a208-ccd3-48fa-b27b-ff77fdb0fd6a)  
+![Снимок экрана (2371)](https://github.com/KirillMisilin/Clouds-lab3/assets/88585791/c540601d-e3dc-43c1-86be-3a44664fa3e4)
+
 Сценарий срабатывает после каждого пуша в репозиторий:  
-![Снимок экрана (2374)](https://github.com/KirillMisilin/Clouds-lab3/assets/88585791/ade101e1-73ea-4f76-894e-bd49a9d41c45)
+![Снимок экрана (2374)](https://github.com/KirillMisilin/Clouds-lab3/assets/88585791/50792857-f877-4551-a5f8-3ffd87d593f2)
+
 
 ## Вывод
 В результате выполнения работы была настроена автоматическая сборка и сохранение образа на DockerHub после каждого пуша в репозиторий.
